@@ -3,7 +3,7 @@ function addProductToSessionStorage(productDiv){
     console.log("productDiv" + productDiv);
     let productId = productDiv.id;
     console.log("productId" + productId);
-    let stringUrl = "file:///Users/GovernorBrown/Documents/Github/ECommProject/oneProduct.html";
+    let stringUrl = "file:///Users/GovernorBrown/Documents/Github/ECommProject/Ecommerce-NOBLE/oneProduct.html";
     let url = new URL(stringUrl);
     console.log("url is " + url.toString());
     let params =url.searchParams;
@@ -15,7 +15,7 @@ function addProductToSessionStorage(productDiv){
     
 }function myFunction() {
    
-    location.replace("file:///Users/GovernorBrown/Documents/Github/ECommProject/oneProduct.html");
+    location.replace("file:///Users/GovernorBrown/Documents/Github/ECommProject/Ecommerce-NOBLE/oneProduct.html");
       
   }// When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
