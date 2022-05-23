@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="oneProduct.css">
 </head>
-<body>
+<body onload="loadId()">
 <div class="header" id="myHeader">
 <div class="container">
     <div class="navbar">
@@ -32,7 +32,7 @@
 <main class="product-container">
 <!-- Left Column-->
 <div class="left-column">
-<img data-image="black" src="img/core-img/noble_logo.jpeg" alt="">
+<img id="grabPhoto" data-image="black" src="img/core-img/noble_logo.jpeg" alt="">
 </div>
 <!-- Right Column -->
 <div class="right-column">
@@ -40,8 +40,8 @@
 <!-- Product Description -->
 <div class="product-description">
 <span>Noble Filler</span>
-<h1>Noble Filler</h1>
-<p>Noble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble Fille</p>
+<h1 id="productName">Noble Filler</h1>
+<p id="productDescription">Noble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble FilleNoble Fille</p>
 </div>
 
 <!-- Product Configuration -->
@@ -79,6 +79,6 @@
 </div>
 <link rel="stylesheet" href="cssshop.css">
 </main>
-
+<script src="oneProduct.js"></script>
 </body>
 </html>

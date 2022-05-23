@@ -4,12 +4,15 @@ function addProductToSessionStorage(productDiv){
     let productId = productDiv.id;
     console.log("productId" + productId);
     let stringUrl = "file:///Users/GovernorBrown/Documents/Github/ECommProject/Ecommerce-NOBLE/oneProduct.html";
-    let url = new URL(stringUrl);
+
+    let url = new URL(stringUrl);localStorage
+    console.log("url is " + url);
     console.log("url is " + url.toString());
     let params =url.searchParams;
-    params.append("q", productId);
+    params.append("chosenproduct", productId);
     console.log("url is " + url.toString());
     location.replace(url.toString());
+    //new Car( "Honda")
     //location.replace("file:///Users/GovernorBrown/Documents/Github/ECommProject/oneProduct.html");
     //assign to currentProduct key in local storag the productId param as a value using put or post call
     
