@@ -1,0 +1,131 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: white;
+  font-family: Gill Sans, sans-serif;
+}
+.navBar {
+  list-style-type: none;
+  background-color: #f5f5dc;
+  text-align: center;
+  margin: 0%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+.navLinks {
+  float: left;
+  padding: 14px 16px;
+  font-size: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+/*about Us.html css*/
+.hero {
+  /* The image used */
+  background-image: url("https://accessiblelaw.untdallas.edu/sites/default/files/img/articles/issue_-_spring_2021_-_millanaem.png");
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.heroText {
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 30%;
+  font-size: 70px;
+}
+#mission {
+  font-size: 50px;
+}
+#article {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#image {
+  float: right;
+  height: 450px;
+  width: 450px;
+}
+.paragraphs {
+  font-size: 30px;
+  word-spacing: 1px;
+  line-height: 40px;
+}
+#quote {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#healthcareImg {
+  width: 30%;
+  height: 30%;
+  margin-top: 15%;
+  margin-left: 35%;
+  margin-bottom: 5%;
+}
+#storyImage {
+  position: absolute;
+  top: 1880px;
+  margin-left: 15%;
+  float: left;
+  width: 800px;
+  height: 400px;
+}
+#story {
+  position: relative;
+  bottom: 130px;
+  font-size: 30px;
+  word-spacing: 25px;
+  line-height: 40px;
+  margin-left: 50%;
+  margin-right: 15%;
+}
+.video {
+  position: absolute;
+  left: 32%;
+  top: 180%;
+}
+#banner {
+  position: absolute;
+  float: right;
+  top: 224%;
+  width: 100%;
+}
+#firstbanner {
+  position: absolute;
+  left: 55%;
+  width: 1144px;
+  height: 350px;
+}
+#secondbanner {
+  width: 1400px;
+  height: 350px;
+}
+/*footer css */
+.footer {
+  position: absolute;
+  font-size: 40px;
+  width: 100%;
+  background-color: #f5f5dc;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 250%;
+}
+.flogo {
+  height: 5%;
+  width: 5%;
+}
