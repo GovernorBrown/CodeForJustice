@@ -25,6 +25,10 @@
     text-decoration:none;
     color:#555;
  }
+
+ .container{
+     padding-bottom: 70px;
+ }
    
  .about-content {
         position: relative;
