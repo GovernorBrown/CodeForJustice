@@ -172,7 +172,7 @@
   }
   #storyImage {
     position: absolute;
-    top: 1700px;
+    top: 2000px;
     margin-left: 15%;
     float: left;
     width: 500px;
@@ -180,7 +180,7 @@
   }
   #story {
     position: relative;
-    top: 380px;
+    top: 650px;
     font-size: 20px;
     word-spacing: 10px;
     line-height: 30px;
@@ -190,7 +190,7 @@
   #banner {
     position: absolute;
     float: right;
-    top: 328%;
+    top: 320%;
     width: 100%;
   }
   #firstbanner {
@@ -220,7 +220,7 @@
     text-align: center;
     color: black;
     position: absolute;
-    top: 380%;
+    top: 342%;
   }
   .flogo {
     height: 5%;
