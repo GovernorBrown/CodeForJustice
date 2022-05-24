@@ -30,14 +30,17 @@ a{
 .container{
      padding-bottom: 70px;
 }
-   
+
+/*CREATES BORDER AROUND CONTENT*/
 .about-content {
       position: relative;
       z-index: 1;
       padding: 100px;
       background-color: #ffffff;
+      /*CREATES BORDER AND SHADOW AROUND CONTENT*/
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
-      border: 1px solid #f2f4f5; }
+      border: 1px solid #f2f4f5;
+}
 /*ADJUSTS ABOUT CONTENT PADDING IF SCREEN IS BETWEEN 992-1199 PIXELS */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .about-content {
