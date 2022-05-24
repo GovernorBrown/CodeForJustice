@@ -6,9 +6,9 @@
   }
   body {
     background-color: white;
-    font-family: Gill Sans, sans-serif;
+    font-family: American Typewriter, serif;
   }
-  .navBar {
+  .navbar {
     list-style-type: none;
     background-color: #f5f5dc;
     text-align: center;
@@ -17,15 +17,39 @@
     width: 100%;
     top: 0;
     z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
   }
-  .navLinks {
+  .navbar img {
+    max-width: 80px;
+    margin: 10px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-right: 15px;
+    font-size: 1.2em;
+  }
+  nav a:hover {
+    color: #00008b;
+  }
+  .navLink {
     float: left;
     padding: 14px 16px;
-    font-size: 30px;
-  }
-  a {
-    color: black;
-    text-decoration: none;
+    font-size: 20px;
   }
   /*about Us.html css*/
   .hero {
@@ -130,12 +154,70 @@
     position: absolute;
     top: 250%;
   }
-  .flogo {
+  .socialLogo {
     height: 5%;
     width: 5%;
   }
 }
 @media screen and (max-width: 1440px) {
+  .navbar {
+    list-style-type: none;
+    background-color: #f5f5dc;
+    text-align: center;
+    margin: 0%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  .navbar img {
+    max-width: 80px;
+    margin: 10px;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-right: 15px;
+    font-size: 1.2em;
+  }
+  nav a:hover {
+    color: #00008b;
+  }
+  .navLink {
+    float: left;
+    font-size: 19px;
+  }
+  .hero {
+    /* The image used */
+    background-image: url("https://accessiblelaw.untdallas.edu/sites/default/files/img/articles/issue_-_spring_2021_-_millanaem.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+  .heroText {
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 30%;
+    font-size: 70px;
+  }
   #mission {
     font-size: 35px;
   }
@@ -149,7 +231,7 @@
     width: 400px;
   }
   .paragraphs {
-    font-size: 25px;
+    font-size: 23px;
     word-spacing: 1px;
     line-height: 25px;
   }
@@ -180,7 +262,7 @@
   }
   #story {
     position: relative;
-    top: 650px;
+    top: 445px;
     font-size: 20px;
     word-spacing: 10px;
     line-height: 30px;
@@ -190,7 +272,7 @@
   #banner {
     position: absolute;
     float: right;
-    top: 320%;
+    top: 300%;
     width: 100%;
   }
   #firstbanner {
@@ -222,7 +304,7 @@
     position: absolute;
     top: 342%;
   }
-  .flogo {
+  .socialLogo {
     height: 5%;
     width: 5%;
   }
